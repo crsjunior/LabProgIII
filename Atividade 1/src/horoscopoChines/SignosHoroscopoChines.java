@@ -73,7 +73,7 @@ public class SignosHoroscopoChines
 	 * @param data String com a data a ser convertida (no formato: dd-mm-aaaa ou dd/mm/aaaa).
 	 * @return Um objeto do tipo Calendar com a data setada conforme a passada pelo parametro data.
 	 */
-	public static Calendar converteDataDeStringParaCalendar(String data)
+	private static Calendar converteDataDeStringParaCalendar(String data)
 	{
 		Calendar tempData = Calendar.getInstance();
 		tempData.set(
@@ -89,7 +89,7 @@ public class SignosHoroscopoChines
 	 * @param data String com a data a ser pesquisada (no formato: dd-mm-aaaa ou dd/mm/aaaa).
 	 * @return Uma String com o nome do signo do horoscopo chines correspondente a data.
 	 */
-	public static String pesquisaSigno(String data)
+	private static String pesquisaSigno(String data)
 	{
 		Calendar dataPesquisada = converteDataDeStringParaCalendar(data);
 		Calendar dataInicioIntervalo;

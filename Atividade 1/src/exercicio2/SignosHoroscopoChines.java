@@ -69,7 +69,7 @@ public class SignosHoroscopoChines
 	};
 	
 	/**
-	 * Converte uma data de uma String (no formato dd-mm-aaaa ou dd/mm//aaaa) para um objeto do tipo Calendar.
+	 * Converte uma data de uma String (no formato dd-mm-aaaa ou dd/mm/aaaa) para um objeto do tipo Calendar.
 	 * @param data String com a data a ser convertida (no formato: dd-mm-aaaa ou dd/mm/aaaa).
 	 * @return Um objeto do tipo Calendar com a data setada conforme a passada pelo parametro data.
 	 */
